@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.s": "arm",
+        "delay.h": "c",
+        "led.h": "c",
+        "clk.h": "c",
+        "fsl_iomuxc.h": "c",
+        "stdint.h": "c",
+        "dtype.h": "c",
+        "imx6ull.h": "c"
+    }
+}

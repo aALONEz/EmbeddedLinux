@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "delay.h": "c",
+        "led.h": "c",
+        "clk.h": "c"
+    }
+}
