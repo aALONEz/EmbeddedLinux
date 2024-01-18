@@ -15,7 +15,6 @@ INCUDIRS		:= 	imx6ull \
 					drive/key \
 					drive/gpio \
 					drive/int \
-					drive/exti \
 					drive/epit \
 					drive/delay
 
@@ -27,7 +26,6 @@ SRCDIRS			:= 	project \
 					drive/key \
 					drive/gpio \
 					drive/int \
-					drive/exti \
 					drive/epit \
 					drive/delay
 

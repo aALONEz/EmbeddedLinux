@@ -12,6 +12,7 @@
                 "${workspaceFolder}/drive/gpio",
                 "${workspaceFolder}/drive/int",
                 "${workspaceFolder}/drive/epit",
+                "${workspaceFolder}/drive/gpt",
                 "${workspaceFolder}/imx6ull",
                 "${workspaceFolder}/project"
             ],

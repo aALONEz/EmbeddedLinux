@@ -3,7 +3,6 @@
 #include "delay.h"
 #include "beep.h"
 #include "key.h"
-#include "exti.h"
 #include "epit.h"
 
 int main()
@@ -14,7 +13,6 @@ int main()
     LED_Init();//LED初始化
     BEEP_Init();//蜂鸣器初始化
     KEY_Init();//按键初始化
-    GPIO1_IO18_Interrupt_Init();//注册GPIO1_IO18的中断
     EPIT_Init(EPIT1, 0, 33000000, 0, NULL);//EPIT计算公式 Tout = ((Prescaler + 1) * LoadValue) / Tclk    其中 Tclk是输入的时钟源的频率(这里是66MHz) LoadValue装载寄存器的值 Prescaler分频寄存器的值 Tout:EPIT溢出的时间单位S(秒)    此处配置为500ms产生一次溢出
     EPIT_Enable(EPIT1, Enable);
     while(1)
